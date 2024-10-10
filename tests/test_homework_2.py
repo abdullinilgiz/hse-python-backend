@@ -3,7 +3,6 @@ from http.client import UNPROCESSABLE_ENTITY
 from typing import Any
 from uuid import uuid4
 
-from pprint import pprint
 import pytest
 from faker import Faker
 from fastapi.testclient import TestClient
